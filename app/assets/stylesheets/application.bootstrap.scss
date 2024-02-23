@@ -1,0 +1,91 @@
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  42: $spacer * 2.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5.5
+);
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.navbar-toggler {
+  border: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url('navbar-toggle.svg');
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  .navbar {
+    margin: auto 144px;
+    height: 90px;
+  }
+
+  .page-1-text {
+    top: 324.32px;
+    left: 167px;
+    width: 734px;
+  }
+
+  .page-1-text h1 {
+    width: 775px;
+    font-size: 66px;
+    line-height: 66px;
+  }
+
+  .page-1-text h4 {
+    width: 664px;
+    line-height: 34px;
+  }
+
+  .page-1-text button {
+    width: 271px;
+  }
+
+  // .page-1-text .ellipse img {
+  //   top: 230px;
+  //   left: 1980px;
+  // }
+
+  footer {
+    margin: 54px 144px;
+  }
+  footer .brand-text {
+    max-width: 512px;
+  }
+}
+@media (576px < width < 992px) {
+  .navbar {
+    margin: auto 32px;
+    height: 122px;
+  }
+
+  footer {
+    margin: 54px 44px;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    margin: auto 24px;
+    height: 88px;
+  }
+
+  footer {
+    margin: 44px 44px;
+  }
+}
+
+.font-18-79 {
+  font-size: 18.79px;
+}

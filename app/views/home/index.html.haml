@@ -1,0 +1,134 @@
+%nav.navbar.navbar-expand-lg
+  .container-fluid.flex-row-reverse.justify-content-sm-start.flex-lg-row
+    %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-bs-target" => "#navbarSupportedContent", "data-bs-toggle" => "collapse", type: "button"}
+      %span.navbar-toggler-icon
+    .collapse.navbar-collapse.jusity-content-end#navbarSupportedContent
+      %ul.navbar-nav.me-auto.mb-2.mb-lg-0
+        %li.nav-item
+          %a.nav-link.active{ href: '#' } Home
+        %li.nav-item
+          %a.nav-link.active{ href: '#' } About Us
+        %li.nav-item
+          %a.nav-link.active{ href: '#' } Payment Terms
+        %li.nav-item
+          %a.nav-link.active{ href: '#' } Privacy Policy
+        %li.nav-item
+          %a.nav-link.active{ href: '#' } Contact Us
+    
+    %button.btn.btn-primary Buy Now
+    = image_tag 'prepcloud-logo.svg', alt: 'Prepcloud logo', height: '25.76', width: '149',
+                                      class: 'd-md-none d-sm-none'
+.row.d-flex.align-items-center.mb-6
+  .col-md-1
+  .col-md-5.mx-auto
+    = image_tag 'prepcloud-logo.svg', alt: 'Prepcloud logo', height: '63.36', width: '366.49',
+                                      class: 'd-none d-sm-block'
+    .mt-7
+      %h1 Ace The NCLEX-RN® Exam
+      %h4.mt-42.fw-light
+        Customize your NCLEX-RN study plan with practice exams, smart adaptive tests,
+        evaluation tests, and flashcards to excel in the NCLEX-RN®.
+    .mt-7
+      %button.btn.btn-lg.btn-primary Buy Now
+  .col-md-6
+    = image_tag 'home-nclex.png', alt: 'NCLEX', class: 'img-responsive', style: "max-width: 100%;"
+
+.container.mb-6
+  .row.d-flex.align-items-center
+    .col-md-4
+      = image_tag 'next-generation.svg', alt: 'NCLEX Next Generation', class: 'img-responsive', style: "max-width: 100%;"
+    .col-md-8.mx-auto
+      %h2 Ace the Next Generation NCLEX-RN on Your First Attempt
+      %p Access superior NCLEX Review resources to start studying now.  You can enhance your study schedule with our array of tools including NCLEX-RN practice questions, adaptive (CAT) tests, assessment exams, and flashcards. 
+
+.container.mb-6
+  .row.d-flex.align-items-center
+    .col-md-12
+      %h2.text-center New NGN Practice Questions
+      = image_tag 'new-ngn-practice-questions.svg', alt: 'New NGN Practice Questions', class: 'img-responsive', style: "max-width: 100%;"
+
+.container.mb-6
+  .row.d-flex.align-items-center
+    .col-md-12
+      %h2.text-center Are you looking for top-notch resources to help you ace the NCLEX exam? 
+      %h3.text-center Look no further!
+      = image_tag 'nclex-exam.svg', alt: 'NCLEX Exam', class: 'img-responsive', style: "max-width: 100%;"
+      %p.text-center Dive into over 500 NGN questions in our program, designed to sharpen your clinical judgment for real-world nursing. 
+      %p.text-center Our NGN cases simulate patient scenarios, challenging you to apply critical thinking and make key decisions, just like in the actual NCLEX. Developed by medical experts, these cases prepare you for the complexities of nursing, ensuring you're exam-ready and poised for professional success.
+
+.container.mb-6
+  .row.d-flex.align-items-center
+    .col-md-12.text-center
+      = image_tag 'studies-next-level.svg', alt: 'NCLEX Studies Next Level', class: 'img-responsive', style: "max-width: 100%;"
+      %h3.text-center{style: 'color: #0069FF;'} Let us help you take your studies to the next level!
+
+.container.mb-6
+  .row.d-flex
+    .col-md-6
+      %h3 Rigorous NCLEX-RN Practice Questions
+      %p Access superior NCLEX Review resources to start studying now.
+      %p You can enhance your study schedule with our array of tools including NCLEX-RN practice questions, adaptive (CAT) tests, assessment exams, and flashcards. 
+      %p Each question is accompanied by an in-depth explanation for both the right and wrong choices, giving insight into the reasoning behind them, helping memorization.
+      %p To aid in demystifying complex topics, we incorporate clear medical illustrations and images that help in contextualizing clinical signs and reinforcing essential principles
+    .col-md-6
+      = image_tag 'rigorous-nclex-rn-practice-questions.svg', alt: 'Rigorous NCLEX Practive Questions', class: 'img-responsive', style: "max-width: 100%;"
+
+.container-fluid.mb-6.py-6{style: 'background: #6553AF;'}
+  .container
+    .row.d-flex
+      .col-md-12
+        %h3.text-center{style: 'color: #fff;'} Our commitment is to provide you with superior NCLEX Review resources that will help you pass the exam successfully.
+    .row.d-flex
+      .col-md-4
+        = image_tag 'commitment-1.svg', alt: 'Commitment 1', class: 'img-responsive', style: "max-width: 100%;"
+        %p{style: 'color: #fff;'}
+          Refine your test-taking strategies using our Adaptive (CAT) NCLEX practice exams.
+          %br
+          These tests assess your readiness, providing insights into whether your performance is up to par or requires further enhancement, and then which ones.
+      .col-md-4
+        = image_tag 'commitment-2.svg', alt: 'Commitment 2', class: 'img-responsive', style: "max-width: 100%;"
+      .col-md-4
+        = image_tag 'commitment-3.svg', alt: 'Commitment 3', class: 'img-responsive', style: "max-width: 100%;"
+        %p{style: 'color: #fff;'} 
+          Gauge your preparedness for the NGN by succeeding in our Readiness Evaluation exams first! 
+          %br
+          These mock exams are crafted to offer a statistically backed forecast of your likelihood to pass the NCLEX on your initial attempt, ensuring you’re fully prepared.
+
+.container.mb-6
+  .row.d-flex
+    .col-md-8.offset-md-2
+      = image_tag 'premium-plan.svg', alt: 'Premium Plan', class: 'img-responsive', style: "max-width: 100%;"
+
+
+%footer
+  .row.flex-column.flex-lg-row
+    .col-md-6
+      = image_tag 'TESTPREPCLOUD.svg', alt: 'Prepcloud logo', class: 'd-none d-lg-block'
+      = image_tag 'prepcloud-logo.svg', alt: 'Prepcloud logo', height: '35', width: '204',
+                                      class: 'd-none d-sm-block d-md-block d-lg-none'
+      = image_tag 'prepcloud-logo.svg', alt: 'Prepcloud logo', height: '23.68', width: '138',
+                                      class: 'd-block d-sm-none'
+      .mt-6.lh-base.fw-light.brand-text
+        Customize your NCLEX-RN study plan with endless practice exams, smart adaptive tests,
+        evaluation tests, and flashcards to excel in the NGN®.
+      .row
+        .mt-6
+          = image_tag 'socials/facebook-btn.svg', alt: 'Facebook button', height: '33.6', width: '33.6', class: 'me-4'
+          = image_tag 'socials/instagram-btn.svg', alt: 'Instagram button', height: '33.6', width: '33.6', class: 'me-4'
+          = image_tag 'socials/linkedin-btn.svg', alt: 'LinkedIn button', height: '33.6', width: '33.6'
+    .col-3.col-md-1
+    .col-md-5.mt-5.mt-lg-0
+      .d-flex.flex-column.flex-sm-row
+        .me-5.text-nowrap
+          .font-18-79 OTHER
+          .mt-42 About Us
+          .mt-42 Payment Terms
+          .mt-42 Contact Us
+        .mt-5.mt-sm-0
+          .font-1879 OPERATED BY
+          .mt-5
+            %ul.lh-lg.fw-light
+              %li TestPrepCloud LLC
+              %li 44 Tehama St, San Francisco
+              %li CA 94105, United States
+              %li= mail_to('support@testprepcloud.com')

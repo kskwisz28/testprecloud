@@ -1,0 +1,26 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/*
+    - db/schema.rb
+
+Layout/LineLength:
+  Description: 'Limit lines to 80 characters.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
+  Max: 100
+  Exclude:
+    - Gemfile
+    - db/*
+    - config/**/*
+
+Style/Documentation:
+  Description: 'Checks for missing top-level documentation of classes and modules.'
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Description: 'Helps you transition from mutable string literals to frozen string literals.'
+  Include:
+    - app/**/*
